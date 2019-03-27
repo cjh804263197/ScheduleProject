@@ -1,0 +1,33 @@
+{
+  "name": "ScheduleProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "gradle-clean": "cd android && ./gradlew clean",
+    "dev": "yarn gradle-clean && react-native run-android",
+    "test": "jest"
+  },
+  "dependencies": {
+    "antd-mobile-rn": "2.3.3",
+    "dayjs": "^1.8.10",
+    "jsc-android": "225067.0.0",
+    "mobx": "5.5.2",
+    "mobx-react": "5.3.6",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.4",
+    "react-native-swiper": "^1.5.14",
+    "react-native-viewpager": "^0.2.13"
+  },
+  "devDependencies": {
+    "babel-jest": "24.5.0",
+    "babel-plugin-import": "^1.11.0",
+    "babel-preset-mobx": "^2.0.0",
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

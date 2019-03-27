@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "module:metro-react-native-babel-preset",
+    "mobx"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "@sishu/antd-mobile-rn"
+      }
+    ]
+  ]
+}
